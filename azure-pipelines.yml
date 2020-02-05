@@ -6,7 +6,7 @@ trigger:
 - master
 
 resources:
-- repo: self
+- repo: TenableCSDemoLeoChan
 
 variables:
   tag: '$(Build.BuildId)'
