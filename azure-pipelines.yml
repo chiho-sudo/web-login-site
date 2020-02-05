@@ -11,7 +11,7 @@ resources:
 variables:
   dockerRegistryServiceConnection: '199b4918-6256-49d4-8217-2f6158486c30'
   imageRepository: 'webloginsite'
-  containerRegistory: 'tenablecsdemoleochan.azurecr.io'
+  containerRegistry: 'tenablecsdemoleochan.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
